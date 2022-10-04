@@ -1,0 +1,155 @@
+body {
+  background-color: #f1f1f1;
+}
+
+main {
+  max-width: 1000px;
+  margin: 25px auto;
+}
+
+/* info */
+.info {
+  width: 40%;
+  float: left;
+  padding-right: 10px;
+}
+
+.info .bio {
+  background-color: #dae8ea;
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 1px 	#6C6C6C;
+}
+
+.info .bio h1 {
+  padding-top: 20px;
+  line-height: 36px;
+}
+
+.info .bio h4 {
+  margin: 0;
+  margin: 20px auto;
+  opacity: 0.8;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.info .bio img.avatar{
+  width: 300px;
+  height: 300px;
+  margin: 20px ;
+  border-radius: 50%;
+}
+
+.info .bio .social-links {
+  padding: 10px;
+}
+
+.info .bio i {
+  margin: 5px;
+  font-size: 25px;
+}
+
+.info .profile {
+  padding: 10px 10px;
+  list-style:none
+}
+
+.info .profile-title {
+  font-weight: 500;
+  color: #595c5c ;
+}
+
+.info .profile-text {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.profile-text a {
+  text-decoration:none;
+  color: #595c5c;
+}
+/* content */
+
+.content {
+  width: 60%;
+  float: left;
+  /* border-left: solid 2px #636b6c; */
+  padding-left: 1rem;
+}
+
+.content .about {
+  padding-top: 10px auto;
+  margin-bottom: auto;
+}
+
+.content .experience,
+.content .contacts-and-skills {
+  float: left;
+  width: 100%;
+}
+
+.content h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding-bottom: 5px;
+}
+
+.content .skills li,
+.content .language li{
+  font-size: 1rem;
+}
+
+.content i {
+  margin-right: 5px;
+}
+
+/* .content .card {
+  box-shadow: 5px 5px 2px 	#6C6C6C;
+} */
+
+/* ul {
+  padding: 0;
+  list-style: none;
+} */
+
+h2::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 8px;
+  background-color: #32d5e3;
+  margin-left: 10px;
+}
+
+.profile a{
+  text-decoration:none;
+  color: #595c5c;
+}
+
+.profile i{
+  width: 20px;
+}
+
+.profile li{
+  margin-top: 10px;
+  color: #595c5c;
+}
+
+.content hr {
+  background-color: #484d4e;
+}
+
+.experience #experience{
+  border-left:solid 2px #595c5c;
+}
+
+.experience img {
+  width: 300;
+  height: 200;
+}
+
+.experience h3 {
+  margin-top: 10px;
+}
